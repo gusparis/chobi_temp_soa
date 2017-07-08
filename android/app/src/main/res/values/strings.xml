@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ChobiTemp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_title">Chobi</string>
+    <string name="temperature_starting_text">…</string>
+    <string name="estado_actual">Temperatura del sensor</string>
+    <string name="pronostico">Temperatura exterior</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="config_servidor">Servidor</string>
+    <string name="connection_error">No se pudo conectar al servidor</string>
+    <string name="not_valid_url">La URL del servidor no está en un formato válido. Actualicela.</string>
+    <string name="no_server_url_defined">No hay un servidor definido. Por favor, revise los ajustes.</string>
+    <string name="lights_switching_error">Se producjo un error al modificar el estado de las luces</string>
+    <string name="input_server_url_title">URL del gateway</string>
+
+    <string name="temp_source_chobi">Sensor</string>
+    <string name="temp_source_weather">Temperatura exterior</string>
+    <string name="temperature_unobtainable_placeholder">X</string>
+</resources>

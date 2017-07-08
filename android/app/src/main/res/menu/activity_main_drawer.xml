@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/current_state"
+            android:icon="@drawable/watch"
+            android:title="@string/estado_actual" />
+        <item
+            android:id="@+id/future_state"
+            android:icon="@drawable/cloud"
+            android:title="@string/pronostico" />
+    </group>
+
+    <item android:title="Misc">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/settings"-->
+                <!--android:icon="@drawable/ic_menu_manage"-->
+                <!--android:title="@string/ajustes" />-->
+            <item
+                android:id="@+id/server_setup"
+                android:icon="@drawable/device_hub"
+                android:title="@string/config_servidor" />
+        </menu>
+    </item>
+
+</menu>
